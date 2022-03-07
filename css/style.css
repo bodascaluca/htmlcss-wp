@@ -84,7 +84,6 @@ ul{
     height: 100%;
     background-color: rgba(0, 0, 0, .2);
     border-radius: 2em;
-
 }
 
 .bunner-text{
@@ -98,26 +97,43 @@ ul{
 
 .article{
     height:500px ;
-    background-color: #2686ff;
+    /* background-color: #2686ff; */
 }
 
 .footer{
     height: 80px;
-    background-color: #8802fe;
+    /* background-color: #8802fe; */
 }
 
 /* ARTICLE  */
-.color-article{
+/* .color-article{
     background-color: #abcfe7;
-}
+} */
 
 .header-article{
     height: 70px;
+    padding: 1em;
 }
 
+.article-sutitle{
+    color: grey;
+}
+
+.article-header{
+    font-size: 2.4em;
+}
 .col{
     float: left;
     height: 390px;
+    position: relative;
+}
+
+.col img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2em; 
+    height: 180px; 
 }
 
 .col-left{
@@ -134,11 +150,31 @@ ul{
     margin-left: 12.5px;
 }
 
+
+.layover-duo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 2em;
+}
+
 .margin{
     margin-bottom: 20px;
 }
 
 .margin-top{
     margin-top: 20px;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#color-hearts{
+    color:red;
 }
 
