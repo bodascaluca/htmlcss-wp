@@ -33,9 +33,9 @@ ul{
 }
 
     /* DEBUG */
-.debug{
+/* .debug{
     border: 2px solid red;
-}
+} */
 
 /* HEADER  */
 .logo{
@@ -60,9 +60,40 @@ ul{
     color: inherit;
 }
 
-.jumper{
-    height: 300px;
-    background-color: #e1d67a;
+/* BUNNER  */
+.bunner{
+    height: 400px;
+    /* background-color: #e1d67a; */
+   
+    position: relative;
+
+}
+
+.bunner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2em;
+}
+
+.layover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 2em;
+
+}
+
+.bunner-text{
+    position: absolute;
+    bottom: 2em;
+    left: 1em;
+    width: 60%;
+    color: white;
+    font-size: 2em;
 }
 
 .article{
